@@ -5,6 +5,9 @@ using Unity.Entities;
 
 namespace Planetario.Platforms.Models
 {
+	/// <summary>
+	/// stores which locations have been occupied in a platform
+	/// </summary>
 	public class OccupancyState : IOccupancyState, IComponentData
 	{
 		private readonly HashSet<int> _occupants;

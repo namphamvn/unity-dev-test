@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Planetario.Platforms.Views
 {
+	/// <summary>
+	/// make it possible to use RectTransform for 3d object
+	/// </summary>
 	[RequireComponent(typeof(Canvas))]
 	public class ScreenSpaceView : BaseComponentView<ScreenSpace>
 	{

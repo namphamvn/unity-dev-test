@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 namespace Planetario.AssetPipelines
 {
+	/// <summary>
+	/// base class for asset batch processing
+	/// </summary>
 	public abstract class BaseProcessor : MonoBehaviour
 	{
 		public List<GameObject> outputs;

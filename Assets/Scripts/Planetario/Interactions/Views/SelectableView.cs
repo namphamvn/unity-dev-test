@@ -7,6 +7,9 @@ using UnityEngine.EventSystems;
 
 namespace Planetario.Interactions.Views
 {
+	/// <summary>
+	/// click to toggle selection on an entity
+	/// </summary>
 	public class SelectableView : BaseComponentView<Selectable>, IPointerClickHandler, IBeginDragHandler,
 		IEndDragHandler
 	{
