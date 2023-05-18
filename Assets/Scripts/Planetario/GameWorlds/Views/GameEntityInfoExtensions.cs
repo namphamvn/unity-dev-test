@@ -4,6 +4,9 @@ using Unity.Entities;
 
 namespace Planetario.GameWorlds.Views
 {
+	/// <summary>
+	/// utilities for listening to component data changes
+	/// </summary>
 	public static class GameEntityInfoExtensions
 	{
 		public static Action SubscribeOnDataChanged<TComp>(this IGameEntityInfo entity,

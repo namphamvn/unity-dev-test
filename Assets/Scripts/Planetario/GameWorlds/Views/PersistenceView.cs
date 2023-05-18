@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 namespace Planetario.GameWorlds.Views
 {
+	/// <summary>
+	/// show save and load buttons
+	/// </summary>
 	public class PersistenceView : MonoBehaviour
 	{
 		[SerializeField] private Button _saveButton;

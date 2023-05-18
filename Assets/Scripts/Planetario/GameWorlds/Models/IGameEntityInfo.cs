@@ -5,6 +5,10 @@ using Unity.Entities;
 
 namespace Planetario.GameWorlds.Models
 {
+	/// <summary>
+	/// read-only version of <see cref="GameEntity"/>
+	/// this is used by the View classes
+	/// </summary>
 	[JsonObject(IsReference = true)]
 	public interface IGameEntityInfo
 	{

@@ -4,6 +4,9 @@ using Unity.Entities;
 
 namespace Planetario.GameWorlds.Models
 {
+	/// <summary>
+	/// a command to set a component data to an entity
+	/// </summary>
 	[Serializable]
 	public struct SetComponentDataCommand : IUndoableCommand
 	{

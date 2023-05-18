@@ -2,6 +2,9 @@
 
 namespace Planetario.GameWorlds
 {
+	/// <summary>
+	/// Query and interact with states for Undo feature
+	/// </summary>
 	public interface IUndoState
 	{
 		bool HasUndo();

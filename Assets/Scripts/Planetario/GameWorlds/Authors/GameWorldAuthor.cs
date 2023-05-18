@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace Planetario.GameWorlds.Authors
 {
+	/// <summary>
+	/// kickstarts the "baking" process, converting prefabs and scenes into Model
+	/// </summary>
 	public class GameWorldAuthor : MonoBehaviour
 	{
 		public GameWorldView world;

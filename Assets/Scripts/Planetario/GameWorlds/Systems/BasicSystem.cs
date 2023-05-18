@@ -2,6 +2,9 @@
 
 namespace Planetario.GameWorlds.Systems
 {
+	/// <summary>
+	/// handle basic commands
+	/// </summary>
 	public class BasicSystem : BaseSystem, ISystem<SetComponentDataCommand>, ISystem<CombinedCommand>
 	{
 		public void OnCommandReceived(CombinedCommand command)

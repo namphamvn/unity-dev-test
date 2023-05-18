@@ -7,6 +7,11 @@ using Unity.Entities;
 
 namespace Planetario.GameWorlds.Models
 {
+	/// <summary>
+	/// entity is the building block of the game
+	/// entity can form a hierarchy
+	/// entity can have multiple components, which can be changed at runtime
+	/// </summary>
 	[JsonObject(IsReference = true)]
 	[Serializable]
 	public class GameEntity : IChildrenEntities, IGameEntityInfo

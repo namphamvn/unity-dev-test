@@ -5,6 +5,10 @@ using Planetario.GameWorlds.Systems;
 
 namespace Planetario.GameWorlds.Models
 {
+	/// <summary>
+	/// represent all states in the game
+	/// this is the class which is serialized during save / load
+	/// </summary>
 	[Serializable]
 	public class GameWorld : IChildrenEntities, IUndoState
 	{

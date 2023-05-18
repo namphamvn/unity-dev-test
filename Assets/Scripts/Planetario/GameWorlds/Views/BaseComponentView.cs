@@ -4,6 +4,11 @@ using UnityEngine;
 
 namespace Planetario.GameWorlds.Views
 {
+	/// <summary>
+	/// base class for visualizing a component
+	/// this view is not restricted to only read or listen to the "default" component that it is interested in
+	/// a view can read or listen to multiple components
+	/// </summary>
 	public abstract class BaseComponentView : MonoBehaviour, IView, IAuthor
 	{
 		public abstract void BakeModel(GameEntity myEntity, GameEntity parent);

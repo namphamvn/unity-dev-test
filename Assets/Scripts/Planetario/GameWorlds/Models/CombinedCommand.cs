@@ -4,6 +4,10 @@ using Planetario.GameWorlds.Systems;
 
 namespace Planetario.GameWorlds.Models
 {
+	/// <summary>
+	/// perform multiple commands at once
+	/// a single Undo will undo all sub-commands
+	/// </summary>
 	[Serializable]
 	public struct CombinedCommand : IUndoableCommand
 	{

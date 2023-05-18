@@ -9,6 +9,10 @@ using UnityEditor;
 
 namespace Planetario.GameWorlds.Views
 {
+	/// <summary>
+	/// visualize an entity
+	/// also acts as an Author, create Model from the prefab during scene load
+	/// </summary>
 	public class GameEntityView : MonoBehaviour, IAuthor
 	{
 		public string prefabGuid;

@@ -4,6 +4,9 @@ using Planetario.GameWorlds.Models;
 
 namespace Planetario.GameWorlds.Systems
 {
+	/// <summary>
+	/// manage all active systems for <see cref="GameWorld"/>
+	/// </summary>
 	public class GameWorldSystem
 	{
 		private readonly List<BaseSystem> _systems;

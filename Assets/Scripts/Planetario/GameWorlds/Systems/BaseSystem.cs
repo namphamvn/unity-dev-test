@@ -2,6 +2,9 @@
 
 namespace Planetario.GameWorlds.Systems
 {
+	/// <summary>
+	/// base class for all systems
+	/// </summary>
 	public abstract class BaseSystem : ISystem
 	{
 		protected GameWorldSystem WorldSystem;
