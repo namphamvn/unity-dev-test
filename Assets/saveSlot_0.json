@@ -1,0 +1,173 @@
+[
+  {
+    "$type": "ECS.Content.Serialization.PersistentPrefabInstance, Serialization",
+    "Guid": "00448a2b-9efb-e454-c8a5-c77a23ca818d",
+    "Components": [
+      {
+        "$type": "ECS.Simulation.Share.PrefabInstance, Share",
+        "Guid": "00448a2b-9efb-e454-c8a5-c77a23ca818d"
+      },
+      {
+        "$type": "ECS.Simulation.Share.Persistent, Share"
+      }
+    ],
+    "Children": null,
+    "EntityID": 231
+  },
+  {
+    "$type": "ECS.Content.Serialization.PersistentPrefabInstance, Serialization",
+    "Guid": "b0b60e79-a9cc-84c3-788a-b0383be6c4ee",
+    "Components": [
+      {
+        "$type": "ECS.View.UserInput.TapEvent, View",
+        "Action": {
+          "$type": "ECS.Content.Serialization.PersistentPrefab, Serialization",
+          "Guid": "07ebd87b-16c3-54d6-1bb7-d889bf30bf22",
+          "EntityID": 106
+        }
+      },
+      {
+        "$type": "ECS.View.Tray.DeployableItem, View",
+        "PrefabRefEntity": {
+          "$type": "ECS.Content.Serialization.PersistentPrefab, Serialization",
+          "Guid": "4bb11603-98d5-8489-9a3a-f0d901e41d32",
+          "EntityID": 50
+        }
+      },
+      {
+        "$type": "Unity.Transforms.Parent, Unity.Transforms",
+        "Value": {
+          "$type": "ECS.Content.Serialization.PersistentEntity, Serialization",
+          "EntityID": 231
+        }
+      },
+      {
+        "$type": "ECS.Simulation.Share.PrefabInstance, Share",
+        "Guid": "b0b60e79-a9cc-84c3-788a-b0383be6c4ee"
+      },
+      {
+        "$type": "ECS.Simulation.Components.Grids.GridPos, SimComponents",
+        "Value": {
+          "x": 6,
+          "y": 2
+        }
+      },
+      {
+        "$type": "ECS.Simulation.Components.Grids.GridRotation, SimComponents",
+        "Value": 2
+      },
+      {
+        "$type": "Unity.Transforms.LocalToParent, Unity.Transforms",
+        "Value": {
+          "c0": {
+            "x": 5.96046448E-08,
+            "y": 0.0,
+            "z": -0.99999994,
+            "w": 0.0
+          },
+          "c1": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "c2": {
+            "x": 0.99999994,
+            "y": 0.0,
+            "z": 5.96046448E-08,
+            "w": 0.0
+          },
+          "c3": {
+            "x": 6.0,
+            "y": 0.0,
+            "z": 2.0,
+            "w": 1.0
+          }
+        }
+      },
+      {
+        "$type": "ECS.Simulation.Share.Persistent, Share"
+      }
+    ],
+    "Children": null,
+    "EntityID": 243
+  },
+  {
+    "$type": "ECS.Content.Serialization.PersistentPrefabInstance, Serialization",
+    "Guid": "01b8bb38-d61f-e439-d878-70f5c2288acf",
+    "Components": [
+      {
+        "$type": "ECS.View.UserInput.TapEvent, View",
+        "Action": {
+          "$type": "ECS.Content.Serialization.PersistentPrefab, Serialization",
+          "Guid": "07ebd87b-16c3-54d6-1bb7-d889bf30bf22",
+          "EntityID": 106
+        }
+      },
+      {
+        "$type": "ECS.View.Tray.DeployableItem, View",
+        "PrefabRefEntity": {
+          "$type": "ECS.Content.Serialization.PersistentPrefab, Serialization",
+          "Guid": "abdc5bf8-0492-4432-ab28-b594d9343e1a",
+          "EntityID": 47
+        }
+      },
+      {
+        "$type": "Unity.Transforms.Parent, Unity.Transforms",
+        "Value": {
+          "$type": "ECS.Content.Serialization.PersistentEntity, Serialization",
+          "EntityID": 231
+        }
+      },
+      {
+        "$type": "ECS.Simulation.Share.PrefabInstance, Share",
+        "Guid": "01b8bb38-d61f-e439-d878-70f5c2288acf"
+      },
+      {
+        "$type": "ECS.Simulation.Components.Grids.GridPos, SimComponents",
+        "Value": {
+          "x": 1,
+          "y": 5
+        }
+      },
+      {
+        "$type": "ECS.Simulation.Components.Grids.GridRotation, SimComponents",
+        "Value": 0
+      },
+      {
+        "$type": "Unity.Transforms.LocalToParent, Unity.Transforms",
+        "Value": {
+          "c0": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "c1": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "c2": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0,
+            "w": 0.0
+          },
+          "c3": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 5.0,
+            "w": 1.0
+          }
+        }
+      },
+      {
+        "$type": "ECS.Simulation.Share.Persistent, Share"
+      }
+    ],
+    "Children": null,
+    "EntityID": 245
+  }
+]

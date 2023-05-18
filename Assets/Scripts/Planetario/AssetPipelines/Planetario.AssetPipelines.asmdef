@@ -1,0 +1,40 @@
+{
+  "name": "Planetario.AssetPipelines",
+  "rootNamespace": "",
+  "references": [
+    "GUID:d8b63aba1907145bea998dd612889d6b",
+    "GUID:9599580a452744c438dcc784062feacf",
+    "GUID:790f24cd0518eec40bf3d3881fae8bb5",
+    "GUID:2ddfe588659830349b83115807a396e7"
+  ],
+  "includePlatforms": [
+    "Android",
+    "Editor",
+    "EmbeddedLinux",
+    "GameCoreScarlett",
+    "GameCoreXboxOne",
+    "iOS",
+    "LinuxStandalone64",
+    "CloudRendering",
+    "Lumin",
+    "macOSStandalone",
+    "PS4",
+    "PS5",
+    "Stadia",
+    "Switch",
+    "tvOS",
+    "WSA",
+    "WebGL",
+    "WindowsStandalone32",
+    "WindowsStandalone64",
+    "XboxOne"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

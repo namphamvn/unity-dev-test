@@ -1,0 +1,17 @@
+{
+  "name": "Planetario.Interactions",
+  "rootNamespace": "",
+  "references": [
+    "GUID:9599580a452744c438dcc784062feacf",
+    "GUID:790f24cd0518eec40bf3d3881fae8bb5"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Planetario.Platforms",
+  "rootNamespace": "",
+  "references": [
+    "GUID:9599580a452744c438dcc784062feacf",
+    "GUID:5eba5a89477b0452a8d0e58f55f8bbea",
+    "GUID:acc698110fb8c4934b71fde199cc5817",
+    "GUID:790f24cd0518eec40bf3d3881fae8bb5",
+    "GUID:2ddfe588659830349b83115807a396e7",
+    "GUID:d8b63aba1907145bea998dd612889d6b",
+    "GUID:e0cd26848372d4e5c891c569017e11f1",
+    "GUID:2665a8d13d1b3f18800f46e256720795"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
