@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2992741526216204104}
   - component: {fileID: 7124892002540615711}
   m_Layer: 0
-  m_Name: ClipRect
+  m_Name: ClipRectHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,7 +115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5636ad60d3849ae88199cef0c65e5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  excludedColliders: []
+  excludedColliders:
+  - {fileID: 4820809862858655936}
   clippingPlane: {fileID: 8109877130716201998}
   rectExtends: {x: 0.5, y: 0.5}
   rectColliders:
@@ -132,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f9b2c0a52c438297671e787d2c1314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabGuid: 1c81747b319726749a2dba0c6cd4ef6d
+  prefabGuid: 41ac004c38db8e14b9dc90e795d33724
 --- !u!114 &7124892002540615711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,10 +157,10 @@ MonoBehaviour:
         y: 0
         z: 0
     minLimit:
-      v: -2.5
+      v: -5
       hasValue: 1
     maxLimit:
-      v: 2.5
+      v: 5
       hasValue: 1
 --- !u!1 &6573762217854665093
 GameObject:
@@ -188,7 +189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6573762217854665093}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.101}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1001}
   m_LocalScale: {x: 1.1999999, y: 1.4, z: 0.19999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -282,7 +283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8968536165757710210}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.11}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
