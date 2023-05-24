@@ -1,6 +1,7 @@
 using System;
 using Planetario.Geometry.Extensions;
 using Planetario.Geometry.Primitive;
+using Planetario.Shares;
 using Unity.Mathematics;
 
 namespace Planetario.MoveConstraints.Models.Constraints
@@ -14,12 +15,8 @@ namespace Planetario.MoveConstraints.Models.Constraints
 	{
 		public float3 normal;
 		public float3 center;
-
-		public CircularConstraint(float3 normal, float3 center)
-		{
-			this.normal = normal;
-			this.center = center;
-		}
+		public SerializableNullable<float> minLimit;
+		public SerializableNullable<float> maxLimit;
 
 		public Location ComputeConstraint(in DraggableState state, Ray currentRay)
 		{
@@ -102,6 +99,15 @@ namespace Planetario.MoveConstraints.Models.Constraints
 				var newDirection = math.rotate(rotation, startDirection);
 				var result = constraintState;
 				result.angle = constraintState.ComputeAngle(newDirection, this);
+				if (minLimit.HasValue)
+				{
+					result.angle = math.max(result.angle, math.radians(minLimit.Value));
+				}
+
+				if (maxLimit.HasValue)
+				{
+					result.angle = math.min(result.angle,  math.radians(maxLimit.Value));
+				}
 				return result;
 			}
 
