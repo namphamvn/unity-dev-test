@@ -65,7 +65,15 @@ namespace Planetario.Geometry.Extensions
 			}
 			else
 			{
-				forward = math.cross(math.right(), up);
+				compare = up == math.right();
+				if (compare.x & compare.y & compare.z)
+				{
+					forward = math.cross(math.forward(), up);
+				}
+				else
+				{
+					forward = math.cross(math.right(), up);
+				}
 				right = math.cross(up, forward);
 			}
 
