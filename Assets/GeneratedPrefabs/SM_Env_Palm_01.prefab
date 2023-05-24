@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4369908128959179459}
   - component: {fileID: 6290927444094485477}
   - component: {fileID: 3382341846859538157}
+  - component: {fileID: 4052297290419387998}
+  - component: {fileID: 7682944367532929145}
   m_Layer: 0
   m_Name: SM_Env_Palm_01
   m_TagString: Untagged
@@ -61,6 +63,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   authoredData:
     location: 0
+--- !u!114 &4052297290419387998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7015805118128431488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2b1b3997124d09ae95177c4cceaa65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  authoredData:
+    liftDir:
+      x: 0
+      y: 1
+      z: 0
+    liftDistance: 1
+    returnDuration: 0.5
+    cloneOnDrop: 0
+--- !u!114 &7682944367532929145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7015805118128431488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e198f42256048a49b995a61fdebc6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  authoredData:
+    isSelected: 0
+  renderers:
+  - {fileID: 1631357402018271238}
 --- !u!1 &8527587898481892115
 GameObject:
   m_ObjectHideFlags: 0
