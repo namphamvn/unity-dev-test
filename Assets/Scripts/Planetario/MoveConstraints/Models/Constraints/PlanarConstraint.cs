@@ -55,6 +55,14 @@ namespace Planetario.MoveConstraints.Models.Constraints
 
 				var result = constraintState;
 				result.coordXZ += delta;
+				if (minLimit.HasValue)
+				{
+					result.coordXZ = math.max(result.coordXZ, minLimit.Value);
+				}
+				if (maxLimit.HasValue)
+				{
+					result.coordXZ = math.min(result.coordXZ, maxLimit.Value);
+				}
 				return result;
 			}
 
